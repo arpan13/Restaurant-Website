@@ -124,3 +124,90 @@ h1{
 .main-nav li a:active{
     border-bottom: 2px solid #e67e22;
 }
+/************Feature section*************/
+section{
+    padding: 80px;
+}
+h2{
+   
+    font-size: 180%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+h2:after{
+   display: block;
+   height: 2px;
+   width: 100px;
+   margin:0 auto;
+   margin-top: 30px;
+   background-color:#e67e22 ;
+   content:" ";
+}
+.long-copy{
+    line-height: 145%;
+    word-spacing: 1px;
+    width:70%;
+    margin-left: 15%;
+
+}
+.box{
+    padding: 1%;
+    margin-top: 30px;
+}
+.box p{
+    font-size: 90%;
+    line-height: 145%;
+}
+h3{
+    font-size: 110%;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.icon-big{
+    font-size: 350%;
+    display: block;
+    color:#e67e22 ;
+    
+    margin:0 auto 20px auto;
+}
+/**********meals section*********/
+.section-meals{
+    padding: 0;
+}
+.meals-showcase{
+    list-style: none;
+    width:100%;
+    
+}
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+
+}
+.meal-photo{
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+    background-color: #000;
+
+}
+.meal-photo img{
+    opacity: 0.7;
+    width: 100%;
+    height: auto;
+    transform:scale(1.15) ;
+    transition: transform 0.5s,opacity 0.5s;
+}
+
+.meal-photo img:hover{
+    transform: scale(1.03);
+    opacity:1;
+   
+}
